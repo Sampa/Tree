@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d6a83f0-7dcf-42c8-873a-0f6492d77ad7" name="Default" comment="" />
+    <list default="true" id="2d6a83f0-7dcf-42c8-873a-0f6492d77ad7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BSTreeSet.java" afterPath="$PROJECT_DIR$/src/main/java/BSTreeSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BinarySearchTreeTester.java" afterPath="$PROJECT_DIR$/src/test/java/BinarySearchTreeTester.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Tree.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,32 +72,101 @@
       <file leaf-file-name="BSTreeSet.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BSTreeSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="22" selection-start="721" selection-end="769" vertical-scroll-proportion="0.25168237" vertical-offset="0" max-vertical-offset="4947">
+            <state line="198" column="20" selection-start="6115" selection-end="6115" vertical-scroll-proportion="0.47554806" vertical-offset="3084" max-vertical-offset="9520">
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#test#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#add#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#remove#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#contains#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#clear#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#size#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#depth#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#depth#1;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#toString#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#isEmpty#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#makeEmpty#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#contains#1;class#BSTreeSet#0" expanded="true" />
                 <element signature="docComment;method#iterator#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#iterator#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="docComment;method#iterator#1;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#iterator#1;class#BSTreeSet#0" expanded="true" />
+                <element signature="e#3570#3571#0" expanded="true" />
+                <element signature="e#3605#3606#0" expanded="true" />
+                <element signature="method#Node#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#doubleWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#doubleWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#doubleWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#doubleWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#findMin#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#findMin#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#findMin#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#findMinNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#equals#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#hashCode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#hasTwoChildren#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#isLeaf#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#depth#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#depth#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="e#13698#13699#0" expanded="true" />
+                <element signature="e#13733#13734#0" expanded="true" />
+                <element signature="method#buildString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="e#14538#14539#0" expanded="true" />
+                <element signature="e#14574#14575#0" expanded="true" />
+                <element signature="e#14607#14608#0" expanded="true" />
+                <element signature="e#14642#14643#0" expanded="true" />
+                <element signature="method#size#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#countSize#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="e#15263#15264#0" expanded="true" />
+                <element signature="e#15303#15304#0" expanded="true" />
+                <element signature="e#15351#15352#0" expanded="true" />
+                <element signature="e#15393#15394#0" expanded="true" />
+                <element signature="e#15439#15440#0" expanded="true" />
+                <element signature="e#15480#15481#0" expanded="true" />
+                <element signature="method#getNextLarger#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="e#15750#15751#0" expanded="true" />
+                <element signature="e#15792#15793#0" expanded="true" />
+                <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="docComment;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#BSTreeIterator#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#hasNext#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#next#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
-                <element signature="class#Node#0;class#BSTreeSet#0" expanded="true" />
-                <element signature="method#findMinNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-                <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
-                <element signature="e#10966#11003#0" expanded="false" />
-                <element signature="e#13070#13148#0" expanded="false" />
-                <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-                <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#hasPrevious#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#previous#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#remove#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AvlTree.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../exempel/alda_bok_source/AvlTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="142" column="4" selection-start="3714" selection-end="3714" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2805">
+              <folding>
+                <element signature="method#balance#0;class#AvlTree#0" expanded="true" />
+                <element signature="method#checkBalance#0;class#AvlTree#0" expanded="true" />
+                <element signature="method#checkBalance#1;class#AvlTree#0" expanded="true" />
+                <element signature="method#insert#1;class#AvlTree#0" expanded="true" />
+                <element signature="method#height#0;class#AvlTree#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,8 +193,26 @@
       <file leaf-file-name="BinarySearchTreeTester.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BinarySearchTreeTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="34" selection-start="2308" selection-end="2343" vertical-scroll-proportion="0.0" vertical-offset="1666" max-vertical-offset="2312">
-              <folding />
+            <state line="74" column="0" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.0" vertical-offset="1113" max-vertical-offset="2295">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#252#261#0" expanded="true" />
+                <element signature="method#testEmptyTree#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="method#setUp#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="method#testAddUnique#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="method#testSize#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="method#testDepth#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="method#testToString#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="method#testAddDuplicates#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="method#testRemoveExistingLeaf#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="method#testRemoveExistingMiddleItemWithEmptyRightChild#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="method#testRemoveExistingMiddleItemWithTwoChildren#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="method#testRemoveRoot#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="method#testRandomAddAndRemove#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="e#2389#2398#0" expanded="true" />
+                <element signature="method#testOtherType#0;class#BinarySearchTreeTester#0" expanded="true" />
+                <element signature="e#3166#3174#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,13 +224,16 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/BinarySearchTreeTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinarySearchTreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/Node.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BinarySearchTreeTester.java" />
         <option value="$PROJECT_DIR$/src/main/java/BSTreeSet.java" />
       </list>
     </option>
@@ -149,7 +244,7 @@
     <option name="width" value="1792" />
     <option name="height" value="1096" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -508,6 +603,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -517,17 +613,16 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32837406" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24985574" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="eSnippet Pro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24985574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18278427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-1212" y="259" width="1004" height="779" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24985574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34218916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="-1212" y="259" width="1004" height="779" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -556,30 +651,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="140" column="9" selection-start="3925" selection-end="3925" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="4947">
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#test#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#contains#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#clear#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#size#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#depth#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#depth#1;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#toString#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#makeEmpty#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#contains#1;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#iterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#iterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#iterator#1;class#BSTreeSet#0" expanded="true" />
             <element signature="method#iterator#1;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#3570#3571#0" expanded="true" />
+            <element signature="e#3605#3606#0" expanded="true" />
+            <element signature="method#Node#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#doubleWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#doubleWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#doubleWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#doubleWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#findMin#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMin#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMin#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMinNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#equals#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#hashCode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#hasTwoChildren#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#isLeaf#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#depth#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#depth#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#13698#13699#0" expanded="true" />
+            <element signature="e#13733#13734#0" expanded="true" />
+            <element signature="method#buildString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#14538#14539#0" expanded="true" />
+            <element signature="e#14574#14575#0" expanded="true" />
+            <element signature="e#14607#14608#0" expanded="true" />
+            <element signature="e#14642#14643#0" expanded="true" />
+            <element signature="method#size#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#countSize#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#15263#15264#0" expanded="true" />
+            <element signature="e#15303#15304#0" expanded="true" />
+            <element signature="e#15351#15352#0" expanded="true" />
+            <element signature="e#15393#15394#0" expanded="true" />
+            <element signature="e#15439#15440#0" expanded="true" />
+            <element signature="e#15480#15481#0" expanded="true" />
+            <element signature="method#getNextLarger#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#15750#15751#0" expanded="true" />
+            <element signature="e#15792#15793#0" expanded="true" />
+            <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#BSTreeIterator#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#hasNext#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#next#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="method#findMinNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#10966#11003#0" expanded="false" />
-            <element signature="e#13070#13148#0" expanded="false" />
-            <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#hasPrevious#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#previous#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#remove#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -601,7 +750,25 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/BinarySearchTreeTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="98" column="34" selection-start="2308" selection-end="2343" vertical-scroll-proportion="0.0" vertical-offset="1666" max-vertical-offset="2312">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#261#0" expanded="true" />
+            <element signature="method#testEmptyTree#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#setUp#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testAddUnique#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testSize#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testDepth#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testToString#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testAddDuplicates#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveExistingLeaf#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveExistingMiddleItemWithEmptyRightChild#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveExistingMiddleItemWithTwoChildren#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveRoot#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRandomAddAndRemove#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="e#2389#2398#0" expanded="true" />
+            <element signature="method#testOtherType#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="e#3166#3174#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -609,30 +776,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="44" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2108">
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#test#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#contains#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#clear#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#size#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#depth#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#depth#1;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#toString#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#makeEmpty#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#contains#1;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#iterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#iterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#iterator#1;class#BSTreeSet#0" expanded="true" />
             <element signature="method#iterator#1;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#3570#3571#0" expanded="true" />
+            <element signature="e#3605#3606#0" expanded="true" />
+            <element signature="method#Node#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#doubleWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#doubleWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#doubleWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#doubleWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#findMin#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMin#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMin#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMinNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#equals#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#hashCode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#hasTwoChildren#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#isLeaf#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#depth#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#depth#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#13698#13699#0" expanded="true" />
+            <element signature="e#13733#13734#0" expanded="true" />
+            <element signature="method#buildString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#14538#14539#0" expanded="true" />
+            <element signature="e#14574#14575#0" expanded="true" />
+            <element signature="e#14607#14608#0" expanded="true" />
+            <element signature="e#14642#14643#0" expanded="true" />
+            <element signature="method#size#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#countSize#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#15263#15264#0" expanded="true" />
+            <element signature="e#15303#15304#0" expanded="true" />
+            <element signature="e#15351#15352#0" expanded="true" />
+            <element signature="e#15393#15394#0" expanded="true" />
+            <element signature="e#15439#15440#0" expanded="true" />
+            <element signature="e#15480#15481#0" expanded="true" />
+            <element signature="method#getNextLarger#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#15750#15751#0" expanded="true" />
+            <element signature="e#15792#15793#0" expanded="true" />
+            <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#BSTreeIterator#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#hasNext#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#next#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="method#findMinNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#10966#11003#0" expanded="false" />
-            <element signature="e#13070#13148#0" expanded="false" />
-            <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#hasPrevious#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#previous#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#remove#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -647,20 +868,31 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/BinarySearchTreeTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="105" column="39" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2312">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#261#0" expanded="true" />
+            <element signature="method#testEmptyTree#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#setUp#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testAddUnique#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testSize#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testDepth#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testToString#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testAddDuplicates#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveExistingLeaf#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveExistingMiddleItemWithEmptyRightChild#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveExistingMiddleItemWithTwoChildren#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveRoot#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRandomAddAndRemove#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="e#2389#2398#0" expanded="true" />
+            <element signature="method#testOtherType#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="e#3166#3174#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BinarySearchTreeTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="34" selection-start="2308" selection-end="2343" vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
@@ -672,34 +904,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../vecka/src/main/java/MyTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exempel/alda_bok_source/RedBlackTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="5" selection-start="1671" selection-end="2565" vertical-scroll-proportion="-0.41202185" vertical-offset="1397" max-vertical-offset="2312">
+          <folding>
+            <element signature="e#0#9048#0" expanded="true" />
+            <element signature="method#RedBlackTree#0;class#RedBlackTree#0" expanded="true" />
+            <element signature="method#insert#0;class#RedBlackTree#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BinarySearchTreeTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.0" vertical-offset="1113" max-vertical-offset="2295">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#252#261#0" expanded="true" />
+            <element signature="method#testEmptyTree#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#setUp#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testAddUnique#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testSize#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testDepth#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testToString#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testAddDuplicates#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveExistingLeaf#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveExistingMiddleItemWithEmptyRightChild#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveExistingMiddleItemWithTwoChildren#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRemoveRoot#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="method#testRandomAddAndRemove#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="e#2389#2398#0" expanded="true" />
+            <element signature="method#testOtherType#0;class#BinarySearchTreeTester#0" expanded="true" />
+            <element signature="e#3166#3174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../exempel/alda_bok_source/AvlTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="4" selection-start="3714" selection-end="3714" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="2805">
+          <folding>
+            <element signature="method#balance#0;class#AvlTree#0" expanded="true" />
+            <element signature="method#checkBalance#0;class#AvlTree#0" expanded="true" />
+            <element signature="method#checkBalance#1;class#AvlTree#0" expanded="true" />
+            <element signature="method#insert#1;class#AvlTree#0" expanded="true" />
+            <element signature="method#height#0;class#AvlTree#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BSTreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="721" selection-end="769" vertical-scroll-proportion="0.25168237" vertical-offset="0" max-vertical-offset="4947">
+        <state line="198" column="20" selection-start="6115" selection-end="6115" vertical-scroll-proportion="0.47554806" vertical-offset="3084" max-vertical-offset="9520">
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#test#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#contains#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#clear#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#size#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#depth#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#depth#1;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#toString#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#isEmpty#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#makeEmpty#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#contains#1;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#iterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#iterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#iterator#1;class#BSTreeSet#0" expanded="true" />
             <element signature="method#iterator#1;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#3570#3571#0" expanded="true" />
+            <element signature="e#3605#3606#0" expanded="true" />
+            <element signature="method#Node#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#doubleWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#doubleWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#doubleWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#doubleWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#findMin#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMin#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMin#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMinNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#equals#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#hashCode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#hasTwoChildren#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#isLeaf#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#depth#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#depth#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#13698#13699#0" expanded="true" />
+            <element signature="e#13733#13734#0" expanded="true" />
+            <element signature="method#buildString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#14538#14539#0" expanded="true" />
+            <element signature="e#14574#14575#0" expanded="true" />
+            <element signature="e#14607#14608#0" expanded="true" />
+            <element signature="e#14642#14643#0" expanded="true" />
+            <element signature="method#size#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#countSize#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#15263#15264#0" expanded="true" />
+            <element signature="e#15303#15304#0" expanded="true" />
+            <element signature="e#15351#15352#0" expanded="true" />
+            <element signature="e#15393#15394#0" expanded="true" />
+            <element signature="e#15439#15440#0" expanded="true" />
+            <element signature="e#15480#15481#0" expanded="true" />
+            <element signature="method#getNextLarger#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#15750#15751#0" expanded="true" />
+            <element signature="e#15792#15793#0" expanded="true" />
+            <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#BSTreeIterator#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#hasNext#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#next#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="method#findMinNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#10966#11003#0" expanded="false" />
-            <element signature="e#13070#13148#0" expanded="false" />
-            <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#hasPrevious#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#previous#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#remove#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
           </folding>
         </state>
       </provider>
