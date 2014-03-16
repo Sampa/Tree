@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d6a83f0-7dcf-42c8-873a-0f6492d77ad7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BSTreeSet.java" afterPath="$PROJECT_DIR$/src/main/java/BSTreeSet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/BinarySearchTreeTester.java" afterPath="$PROJECT_DIR$/src/test/java/BinarySearchTreeTester.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Tree.iws" />
@@ -72,11 +71,13 @@
       <file leaf-file-name="BSTreeSet.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BSTreeSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="20" selection-start="6115" selection-end="6115" vertical-scroll-proportion="0.47554806" vertical-offset="3084" max-vertical-offset="9520">
+            <state line="444" column="10" selection-start="14344" selection-end="14344" vertical-scroll-proportion="0.7335582" vertical-offset="7113" max-vertical-offset="10761">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="docComment;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#main#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#test#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#add#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#add#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#remove#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#contains#0;class#BSTreeSet#0" expanded="true" />
@@ -92,14 +93,20 @@
                 <element signature="method#iterator#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="docComment;method#iterator#1;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#iterator#1;class#BSTreeSet#0" expanded="true" />
-                <element signature="e#3570#3571#0" expanded="true" />
-                <element signature="e#3605#3606#0" expanded="true" />
+                <element signature="docComment;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="e#3828#3829#0" expanded="true" />
+                <element signature="e#3863#3864#0" expanded="true" />
                 <element signature="method#Node#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="docComment;method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#balance#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#balance#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="docComment;method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="docComment;method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
@@ -115,6 +122,7 @@
                 <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="docComment;method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="docComment;method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#equals#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#hashCode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
@@ -124,24 +132,24 @@
                 <element signature="method#depth#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="docComment;method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-                <element signature="e#13698#13699#0" expanded="true" />
-                <element signature="e#13733#13734#0" expanded="true" />
+                <element signature="e#14296#14297#0" expanded="true" />
+                <element signature="e#14331#14332#0" expanded="true" />
                 <element signature="method#buildString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-                <element signature="e#14538#14539#0" expanded="true" />
-                <element signature="e#14574#14575#0" expanded="true" />
-                <element signature="e#14607#14608#0" expanded="true" />
-                <element signature="e#14642#14643#0" expanded="true" />
+                <element signature="e#15146#15147#0" expanded="true" />
+                <element signature="e#15182#15183#0" expanded="true" />
+                <element signature="e#15215#15216#0" expanded="true" />
+                <element signature="e#15250#15251#0" expanded="true" />
                 <element signature="method#size#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#countSize#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-                <element signature="e#15263#15264#0" expanded="true" />
-                <element signature="e#15303#15304#0" expanded="true" />
-                <element signature="e#15351#15352#0" expanded="true" />
-                <element signature="e#15393#15394#0" expanded="true" />
-                <element signature="e#15439#15440#0" expanded="true" />
-                <element signature="e#15480#15481#0" expanded="true" />
+                <element signature="e#15879#15880#0" expanded="true" />
+                <element signature="e#15919#15920#0" expanded="true" />
+                <element signature="e#15968#15969#0" expanded="true" />
+                <element signature="e#16010#16011#0" expanded="true" />
+                <element signature="e#16058#16059#0" expanded="true" />
+                <element signature="e#16099#16100#0" expanded="true" />
                 <element signature="method#getNextLarger#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-                <element signature="e#15750#15751#0" expanded="true" />
-                <element signature="e#15792#15793#0" expanded="true" />
+                <element signature="e#16372#16373#0" expanded="true" />
+                <element signature="e#16414#16415#0" expanded="true" />
                 <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="docComment;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
@@ -151,6 +159,7 @@
                 <element signature="method#next#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#hasPrevious#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#previous#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+                <element signature="method#previousNode#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
                 <element signature="method#remove#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
               </folding>
             </state>
@@ -351,6 +360,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javadoc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -363,7 +386,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -379,6 +402,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -592,6 +616,11 @@
       <created>1394710658290</created>
       <updated>1394710658290</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1394996888392</created>
+      <updated>1394996888392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -638,6 +667,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -652,8 +683,10 @@
         <state line="140" column="9" selection-start="3925" selection-end="3925" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="4947">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#BSTreeSet#0" expanded="true" />
             <element signature="method#main#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#test#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#contains#0;class#BSTreeSet#0" expanded="true" />
@@ -669,14 +702,20 @@
             <element signature="method#iterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#iterator#1;class#BSTreeSet#0" expanded="true" />
             <element signature="method#iterator#1;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#3570#3571#0" expanded="true" />
-            <element signature="e#3605#3606#0" expanded="true" />
+            <element signature="docComment;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#3863#3864#0" expanded="true" />
             <element signature="method#Node#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#balance#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#balance#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
@@ -692,6 +731,7 @@
             <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#equals#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#hashCode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
@@ -701,24 +741,24 @@
             <element signature="method#depth#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#13698#13699#0" expanded="true" />
-            <element signature="e#13733#13734#0" expanded="true" />
+            <element signature="e#14296#14297#0" expanded="true" />
+            <element signature="e#14331#14332#0" expanded="true" />
             <element signature="method#buildString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#14538#14539#0" expanded="true" />
-            <element signature="e#14574#14575#0" expanded="true" />
-            <element signature="e#14607#14608#0" expanded="true" />
-            <element signature="e#14642#14643#0" expanded="true" />
+            <element signature="e#15146#15147#0" expanded="true" />
+            <element signature="e#15182#15183#0" expanded="true" />
+            <element signature="e#15215#15216#0" expanded="true" />
+            <element signature="e#15250#15251#0" expanded="true" />
             <element signature="method#size#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#countSize#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#15263#15264#0" expanded="true" />
-            <element signature="e#15303#15304#0" expanded="true" />
-            <element signature="e#15351#15352#0" expanded="true" />
-            <element signature="e#15393#15394#0" expanded="true" />
-            <element signature="e#15439#15440#0" expanded="true" />
-            <element signature="e#15480#15481#0" expanded="true" />
+            <element signature="e#15879#15880#0" expanded="true" />
+            <element signature="e#15919#15920#0" expanded="true" />
+            <element signature="e#15968#15969#0" expanded="true" />
+            <element signature="e#16010#16011#0" expanded="true" />
+            <element signature="e#16058#16059#0" expanded="true" />
+            <element signature="e#16099#16100#0" expanded="true" />
             <element signature="method#getNextLarger#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#15750#15751#0" expanded="true" />
-            <element signature="e#15792#15793#0" expanded="true" />
+            <element signature="e#16372#16373#0" expanded="true" />
+            <element signature="e#16414#16415#0" expanded="true" />
             <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
@@ -728,6 +768,7 @@
             <element signature="method#next#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#hasPrevious#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#previous#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#previousNode#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
           </folding>
         </state>
@@ -777,8 +818,10 @@
         <state line="10" column="44" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2108">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#BSTreeSet#0" expanded="true" />
             <element signature="method#main#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#test#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#contains#0;class#BSTreeSet#0" expanded="true" />
@@ -794,14 +837,20 @@
             <element signature="method#iterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#iterator#1;class#BSTreeSet#0" expanded="true" />
             <element signature="method#iterator#1;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#3570#3571#0" expanded="true" />
-            <element signature="e#3605#3606#0" expanded="true" />
+            <element signature="docComment;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#3863#3864#0" expanded="true" />
             <element signature="method#Node#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#balance#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#balance#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
@@ -817,6 +866,7 @@
             <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#equals#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#hashCode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
@@ -826,24 +876,24 @@
             <element signature="method#depth#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#13698#13699#0" expanded="true" />
-            <element signature="e#13733#13734#0" expanded="true" />
+            <element signature="e#14296#14297#0" expanded="true" />
+            <element signature="e#14331#14332#0" expanded="true" />
             <element signature="method#buildString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#14538#14539#0" expanded="true" />
-            <element signature="e#14574#14575#0" expanded="true" />
-            <element signature="e#14607#14608#0" expanded="true" />
-            <element signature="e#14642#14643#0" expanded="true" />
+            <element signature="e#15146#15147#0" expanded="true" />
+            <element signature="e#15182#15183#0" expanded="true" />
+            <element signature="e#15215#15216#0" expanded="true" />
+            <element signature="e#15250#15251#0" expanded="true" />
             <element signature="method#size#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#countSize#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#15263#15264#0" expanded="true" />
-            <element signature="e#15303#15304#0" expanded="true" />
-            <element signature="e#15351#15352#0" expanded="true" />
-            <element signature="e#15393#15394#0" expanded="true" />
-            <element signature="e#15439#15440#0" expanded="true" />
-            <element signature="e#15480#15481#0" expanded="true" />
+            <element signature="e#15879#15880#0" expanded="true" />
+            <element signature="e#15919#15920#0" expanded="true" />
+            <element signature="e#15968#15969#0" expanded="true" />
+            <element signature="e#16010#16011#0" expanded="true" />
+            <element signature="e#16058#16059#0" expanded="true" />
+            <element signature="e#16099#16100#0" expanded="true" />
             <element signature="method#getNextLarger#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#15750#15751#0" expanded="true" />
-            <element signature="e#15792#15793#0" expanded="true" />
+            <element signature="e#16372#16373#0" expanded="true" />
+            <element signature="e#16414#16415#0" expanded="true" />
             <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
@@ -853,6 +903,7 @@
             <element signature="method#next#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#hasPrevious#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#previous#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#previousNode#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
           </folding>
         </state>
@@ -917,9 +968,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="5" selection-start="1671" selection-end="2565" vertical-scroll-proportion="-0.41202185" vertical-offset="1397" max-vertical-offset="2312">
           <folding>
-            <element signature="e#0#9048#0" expanded="true" />
-            <element signature="method#RedBlackTree#0;class#RedBlackTree#0" expanded="true" />
-            <element signature="method#insert#0;class#RedBlackTree#0" expanded="true" />
+            <element signature="e#0#9048#0" expanded="false" />
+            <element signature="method#RedBlackTree#0;class#RedBlackTree#0" expanded="false" />
+            <element signature="method#insert#0;class#RedBlackTree#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -964,11 +1015,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BSTreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="20" selection-start="6115" selection-end="6115" vertical-scroll-proportion="0.47554806" vertical-offset="3084" max-vertical-offset="9520">
+        <state line="444" column="10" selection-start="14344" selection-end="14344" vertical-scroll-proportion="0.7335582" vertical-offset="7113" max-vertical-offset="10761">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="docComment;class#BSTreeSet#0" expanded="true" />
             <element signature="method#main#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#test#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#add#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#contains#0;class#BSTreeSet#0" expanded="true" />
@@ -984,14 +1037,20 @@
             <element signature="method#iterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#iterator#1;class#BSTreeSet#0" expanded="true" />
             <element signature="method#iterator#1;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#3570#3571#0" expanded="true" />
-            <element signature="e#3605#3606#0" expanded="true" />
+            <element signature="docComment;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="e#3828#3829#0" expanded="true" />
+            <element signature="e#3863#3864#0" expanded="true" />
             <element signature="method#Node#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#getNext#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#getPrev#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#add#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#balance#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#balance#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#rotateWithLeftChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#rotateWithRightChild#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
@@ -1007,6 +1066,7 @@
             <element signature="method#findMinNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="docComment;method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#equals#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#hashCode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
@@ -1016,24 +1076,24 @@
             <element signature="method#depth#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#toString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#13698#13699#0" expanded="true" />
-            <element signature="e#13733#13734#0" expanded="true" />
+            <element signature="e#14296#14297#0" expanded="true" />
+            <element signature="e#14331#14332#0" expanded="true" />
             <element signature="method#buildString#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#14538#14539#0" expanded="true" />
-            <element signature="e#14574#14575#0" expanded="true" />
-            <element signature="e#14607#14608#0" expanded="true" />
-            <element signature="e#14642#14643#0" expanded="true" />
+            <element signature="e#15146#15147#0" expanded="true" />
+            <element signature="e#15182#15183#0" expanded="true" />
+            <element signature="e#15215#15216#0" expanded="true" />
+            <element signature="e#15250#15251#0" expanded="true" />
             <element signature="method#size#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#countSize#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#15263#15264#0" expanded="true" />
-            <element signature="e#15303#15304#0" expanded="true" />
-            <element signature="e#15351#15352#0" expanded="true" />
-            <element signature="e#15393#15394#0" expanded="true" />
-            <element signature="e#15439#15440#0" expanded="true" />
-            <element signature="e#15480#15481#0" expanded="true" />
+            <element signature="e#15879#15880#0" expanded="true" />
+            <element signature="e#15919#15920#0" expanded="true" />
+            <element signature="e#15968#15969#0" expanded="true" />
+            <element signature="e#16010#16011#0" expanded="true" />
+            <element signature="e#16058#16059#0" expanded="true" />
+            <element signature="e#16099#16100#0" expanded="true" />
             <element signature="method#getNextLarger#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
-            <element signature="e#15750#15751#0" expanded="true" />
-            <element signature="e#15792#15793#0" expanded="true" />
+            <element signature="e#16372#16373#0" expanded="true" />
+            <element signature="e#16414#16415#0" expanded="true" />
             <element signature="method#findMaxNode#0;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#findMaxNode#1;class#Node#0;class#BSTreeSet#0" expanded="true" />
             <element signature="docComment;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
@@ -1043,6 +1103,7 @@
             <element signature="method#next#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#hasPrevious#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#previous#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
+            <element signature="method#previousNode#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
             <element signature="method#remove#0;class#BSTreeIterator#0;class#BSTreeSet#0" expanded="true" />
           </folding>
         </state>
